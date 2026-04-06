@@ -1,10 +1,12 @@
-**1. Project structure**
-  Good practice:
-    The standard Unity asset package is used, there are separate folders
-  Changes:
-    Rename Script to Scripts
-    Renaming sprites
-    Group sprites. Divided by purpose: Buttons, Background, Icons…
-    Prefabs are divided into Buttons, Controls, Slider
-    DemoScene has been moved to the common Scenes folder
-    All UI is collected under one folder
+## 1. Project Structure
+
+### Good Practice
+The standard Unity asset package is used, and all assets are organized into separate, dedicated folders.
+
+### Changes
+* **Naming:** Renamed `Script` folder to `Scripts`.
+* **Sprites:** * Renamed sprites for consistency.
+    * Grouped by purpose: `Buttons`, `Background`, `Icons`, etc.
+* **Prefabs:** Divided into functional subfolders: `Buttons`, `Controls`, and `Slider`.
+* **Scenes:** Moved `DemoScene` to the common `Scenes` folder.
+* **UI:** All UI elements are now collected under one single folder.

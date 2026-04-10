@@ -10,3 +10,8 @@ The standard Unity asset package is used, and all assets are organized into sepa
 * **Prefabs:** Divided into functional subfolders: `Buttons`, `Controls`, and `Slider`.
 * **Scenes:** Moved `DemoScene` to the common `Scenes` folder.
 * **UI:** All UI elements are now collected under one single folder.
+
+## 2. Game Juice 
+
+* **Added animation for filling the progress bar.**
+* **Added a sound-on animation. Ideally, I'd create a script and an event, but this is enough for testing.**
